@@ -73,7 +73,7 @@ def send_message(whatsapp_message):
     time.sleep(1)
     pyautogui.press("enter")  # Press Enter to send
 
-# Main Automation Flow
+# Main Automation Flow 
 open_whatsapp_web()
 select_chat()
 message = extract_chat_text_ocr()
@@ -82,4 +82,5 @@ if message:
     response = generate_response(message)
     send_message(response)
 else:
+
     print("No message detected.")
