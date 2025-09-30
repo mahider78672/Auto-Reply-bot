@@ -1,7 +1,7 @@
 # Step 1: Imports
 import pyautogui  
 import pyperclip  
-import time       
+import time  
 import openai     
 from PIL import Image  
 import pytesseract  
@@ -84,3 +84,4 @@ if message:
 else:
 
     print("No message detected.")
+
