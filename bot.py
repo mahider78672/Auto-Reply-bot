@@ -13,7 +13,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 openai.api_key = "your_openai_api_key"  # Replace with your API key
 
 # Step 2: Open WhatsApp Web
-def open_whatsapp_web():  
+def open_whatsapp_web():
     print("Opening WhatsApp Web...")
     pyautogui.hotkey("ctrl", "t")  # Open new tab
     time.sleep(1)
@@ -84,4 +84,5 @@ if message:
 else:
 
     print("No message detected.")
+
 
