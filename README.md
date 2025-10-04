@@ -11,3 +11,4 @@ This project automates replying to WhatsApp messages using **Python, OCR, and Op
 Install these dependencies:
 ```bash
 pip install pyautogui pyperclip pillow pytesseract openai
+ 
