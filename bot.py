@@ -4,7 +4,7 @@ import pyperclip
 import time
 import openai
 from PIL import Image
-import pytesseract  
+import pytesseract
 
 # Ensure you have Tesseract installed and its path set up
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
@@ -84,6 +84,7 @@ if message:
 else:
 
     print("No message detected.")
+
 
 
 
