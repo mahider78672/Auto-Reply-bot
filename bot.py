@@ -1,6 +1,6 @@
 # Step 1: Imports
-import pyautogui  
-import pyperclip  
+import pyautogui
+import pyperclip
 import time  
 import openai     
 from PIL import Image  
@@ -84,6 +84,7 @@ if message:
 else:
 
     print("No message detected.")
+
 
 
 
