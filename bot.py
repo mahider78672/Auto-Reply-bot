@@ -1,9 +1,9 @@
 # Step 1: Imports
 import pyautogui
 import pyperclip
-import time  
-import openai     
-from PIL import Image  
+import time
+import openai
+from PIL import Image
 import pytesseract  
 
 # Ensure you have Tesseract installed and its path set up
@@ -84,6 +84,7 @@ if message:
 else:
 
     print("No message detected.")
+
 
 
 
